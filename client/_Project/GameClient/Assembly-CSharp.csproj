@@ -215,7 +215,7 @@
  <HintPath>C:/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>C:/Users/USER1/Desktop/HW05_5800612-master/hw05/client/_Project/GameClient/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/USER1/Desktop/Final_5800612/client/_Project/GameClient/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/USER1/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 1091
+  controlID: 93
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 1070
+  controlID: 70
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,8 +154,8 @@ MonoBehaviour:
     y: 0
     width: 735
     height: 349
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 349
     width: 735
     height: 384
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -447,7 +447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ea65ffff2a69ffffa669ffffc66bffffd06bffffd86bfffff26bffff9871ffffe272ffff1674ffff1c80ffff9a80ffffbe82ffffcc82ffffe882fffff482ffff3084ffffeaf0ffff42f7ffff9efbffff00000000d42b00000c2c0000
+    m_ExpandedIDs: 44f2ffffc0f2ffffe4f4fffff2f4ffff0ef5ffff1af5ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\USER1\Desktop\HW05_5800612-master\hw05\client\_Project\GameClient
+  m_LastProjectPath: C:\Users\USER1\Desktop\Final_5800612\client\_Project\GameClient
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}

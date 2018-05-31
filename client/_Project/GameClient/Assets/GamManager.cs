@@ -63,7 +63,7 @@ public class GamManager : MonoBehaviour {
 	public void Login(){
 		getName = name.text;
 		getPass = pass.text;
-		string Url = "http://localhost:8081/userpass/"+getName+"/"+getPass;
+		string Url = "ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/userpass/"+getName+"/"+getPass;
 		HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
 		HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 		Stream stream = response.GetResponseStream();
@@ -82,7 +82,7 @@ public class GamManager : MonoBehaviour {
 		if (name.text != "" & pass.text != "") {
 			getName = name.text;
 			getPass = pass.text;
-			string Url = "http://localhost:8081/user/add/user?Name=" + getName + "&Pasword=" + getPass;
+			string Url = "ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/user/add/user?Name=" + getName + "&Pasword=" + getPass;
 			HttpWebRequest request = (HttpWebRequest)WebRequest.Create (Url);
 			HttpWebResponse response = (HttpWebResponse)request.GetResponse ();
 			Stream stream = response.GetResponseStream ();

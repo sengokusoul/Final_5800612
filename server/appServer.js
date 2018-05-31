@@ -13,9 +13,9 @@ var app = express();
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-    host:'localhost',
+    host:'ec2-13-126-252-100.ap-south-1.compute.amazonaws.com',
    //host:'localhost',
-    user:'root',
+    user:'sengokusoul',
     password:'0851408244Ss',
     database:'game1'
    
