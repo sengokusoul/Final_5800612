@@ -1,5 +1,5 @@
 
-var io = require('socket.io')(process.env.PORT || 8081);
+var io = require('socket.io')(process.env.PORT || 3000);
 var playercount = 0;
 var cse = 0 ;
 var Score1;
