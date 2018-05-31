@@ -212,7 +212,7 @@ private void OnEnemy(SocketIOEvent e)
 	{
 		if (isP1 == true) {
 			if (GamManager.getScore <= P1sc) {
-				string Url = "ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/userscore/"+GamManager.getName+"/"+P1sc;
+				string Url = "http://ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/userscore/"+GamManager.getName+"/"+P1sc;
 				HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
 				HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 				Stream stream = response.GetResponseStream();
@@ -222,7 +222,7 @@ private void OnEnemy(SocketIOEvent e)
 			}
 		} else {
 			if (GamManager.getScore <= P2sc) {
-				string Url = "ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/userscore/"+GamManager.getName+"/"+P2sc;
+				string Url = "http://ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/userscore/"+GamManager.getName+"/"+P2sc;
 				HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
 				HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 				Stream stream = response.GetResponseStream();

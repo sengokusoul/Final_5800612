@@ -38,7 +38,7 @@ public class TopTen : MonoBehaviour {
 		youName.text = GamManager.getName;
 		youScore.text = GamManager.getScore.ToString();
 
-		string Url = "ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/Topusers";
+		string Url = "http://ec2-13-126-252-100.ap-south-1.compute.amazonaws.com:8081/Topusers";
 		HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
 		HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 		Stream stream = response.GetResponseStream();
