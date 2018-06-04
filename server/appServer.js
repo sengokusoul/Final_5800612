@@ -16,7 +16,7 @@ var connection = mysql.createConnection({
     host:'ec2-13-126-252-100.ap-south-1.compute.amazonaws.com',
    //host:'localhost',
     user:'sengokusoul',
-    password:'0851408244Ss',
+    password:'**********',
     database:'game1'
    
     });
@@ -89,7 +89,7 @@ queryCheckUser(function(err,result)
 {
     res.end(result);
 });
-});
+
 app.get ('/userscore/:Name/:Score',function(req,res)
 {
 
